@@ -1,0 +1,257 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    background-color: transparent !important;
+    padding: 6px;
+    border-radius: 5px;
+  border: 3px #fff double;
+  color:grey;
+    
+}
+
+.gender, .dob {
+    WIDTH: 40%;
+    padding-left: 36px;
+    margin-bottom: 10px;
+}
+.gender label, .dob label{
+    margin-left: 0px;
+	   margin-bottom: 10px;
+}
+label
+{
+	font-weight:bold;
+}
+
+
+#header ul {
+    text-align: center;
+    /* position: relative; */
+    top: 4%;
+    /* left: 22%; */
+    list-style-type: none;
+    font: black;
+    margin: 0 auto;
+	    display: table;
+}
+h1#logo {
+    display: block;
+    float: left;
+}
+div#menu {
+    margin: 0 auto;
+    /*width: 600px;*/
+    display: block;
+}
+div#header {
+    width: 100%;
+    display: block;
+}
+#header ul li
+{
+	text-align: center;
+	
+}
+#logo {
+    padding: 0 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#header ul li a
+{
+	
+	color : #4e4f3e;
+	overflow:hidden;
+	padding : 5px 0px;
+	display : block;
+	border-radius:5px;
+	background-color:black;
+	color:white;
+}
+#menu ul li 
+{
+			
+			display:inline-block;
+			padding: 18px 0;
+}
+
+#menu ul li a 
+{
+				
+				text-decoration : none;
+				margin:8px;
+				display : block;
+				padding:6px;
+				top:40%;
+}
+#menu ul li p
+{
+	font-size:20px;
+	padding:5px;
+	margin-left:10px;
+}
+.dropbtn {
+    background-color: black ;
+    color: white;
+	margin-top:6px;
+    padding: 5px;
+     border-radius:7px;
+	 border-style:0px balck;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+.dropdown-content a:hover {background-color: #black}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #black;
+}
+label
+{
+	color:#006666;
+}
+h1
+{
+	text-align:center;
+	color:white;
+}
+form div {
+    display: inline-block;
+}
+
+div label {
+    display: block;
+	margin-left:37px;
+}
+.reg-box {
+    width: 600px;
+	padding:10px; height:auto !important;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: block;
+	margin-top:20px;
+}
+.newjob div{display:block !important;}
+.newjob div textarea,
+.newjob div input[type="text"] {
+    width: 88% !important;
+}
+div#main-content {
+    width: 100%;
+	margin: 0 auto;
+    display: inline-block;
+
+}
+.log-box {
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    /* top: 30%; */
+    /* left: 50%; */
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    /* box-sizing: border-box; */
+        padding: 0px 25px 30px;
+    margin: 0 auto;
+    display: block;
+}
+.main-container{width:845px;display:block;margin:0 auto;}
+div#myTabContent {
+    padding: 10px 0;
+}
+.nav-tabs .nav-link {
+    color: #ffffff;
+}
+div input[type="text"]
+{
+	width:100%;
+	margin-bottom:15px;
+	padding:10px;
+	margin : 12px 35px;
+	background:transparent;
+	color:black;
+	border-radius:5px;
+    border: 3px #fff double;
+}
+div input[type="date"]
+{
+	width:100%;
+	margin-bottom:15px;
+	padding:10px;
+	margin : 8px 7px;
+	background:transparent;
+	color:white;
+	border-radius:5px;
+    border: 3px #fff double;
+}
+div textarea
+{
+	width:100%;
+	margin-bottom:15px;
+	padding:10px;
+	margin : 12px 35px;
+	background:transparent;
+	color:white;
+	border-radius:5px;
+    border: 3px #fff double;
+}
+div input[type="password"]
+{
+	width:100%;
+	margin-bottom:15px;
+	padding:10px;
+	margin : 12px 35px;
+	background:transparent;
+	color:white;
+	border-radius:5px;
+    border: 3px #fff double;
+}
+input[type="submit"]
+{
+border:none;
+outline : none;
+height : 35px;
+background : lightseagreen;
+color : #fff;
+font-size: 18px;
+margin: 0 auto;
+    display: table;
+    width: 110px;
+border: 1px solid #ffffffa6;
+}
